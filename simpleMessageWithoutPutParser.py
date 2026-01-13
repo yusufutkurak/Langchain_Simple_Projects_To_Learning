@@ -15,4 +15,4 @@ parser = StrOutputParser()
 chain =  model| parser
 
 if __name__ == "__main__":
-    print(parser.invoke(response))
+    print(chain.invoke(messages))
